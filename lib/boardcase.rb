@@ -1,7 +1,9 @@
+
 class BoardCase
+  attr_accessor :value
 
-	def inizialize
-
-	end
+  def initialize
+    @value = " "
+  end
 
 end
